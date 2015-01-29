@@ -5,6 +5,7 @@ public class TestJunit {
 	
    String message = "Hello World1";	
    MessageUtil messageUtil = new MessageUtil(message);
+   
 
    @Test
    public void testPrintMessage() {
@@ -13,8 +14,9 @@ public class TestJunit {
    
    @Test
    public void testPrintMessage2() {
-      assertEquals("abc",messageUtil.printMessage());
+      assertEquals("abc", messageUtil.printMessage());
    }
    
+
    
 }
